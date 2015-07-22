@@ -1,33 +1,115 @@
 <link href='style.css' rel='stylesheet'>
+<meta charset="utf-8">
 
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500&subset=latin,cyrillic' rel='stylesheet'>
 <link href='http://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,cyrillic' rel='stylesheet'>
+<link href='http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Forum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
-<title>Text</title>
+<title>Soundmaster</title>
 
 <body>
-	<div class="block">
-		<div class=" block1">
-		<div class="block-text"> Foot tool! </div>
-
-		</div>
-
-		<div class="block2">
-		
-		</div>
 
 
 
-	</div>
-<div class="block-text">
-	<span style="font-family: sans-serif; color: black;">Text One  ... </span>
+    <div class="block" style="widht: 100%; height: 500px; ">
+        <div class="block-grey sise-all"></div>
+        <div class="block-image sise-all"></div>
+        <div class="block-shadow sise-all"></div>
+        <div class="s sise-all text-sans">SOUNDMASTER</div>
+        <div class="sise-all  text-sans ss">Техническое обеспечение мероприятий</div>
+
+        <div  style=" position:absolute; wight: 100%; margin-left:86%; margin-top: 8px; float: right;  z-index: 7; text-align: right; color:white;">
+            <div class="PO" style="text-align: right;">soundmaster39@gmail.com</div> 
+            <div class="text-sans" style="font-family: 'Ubuntu', sans-serif;">+7 962 259-00-35</div> 
+        </div>
+    </div>
+
+<div class="" style="font-family: 'Forum', cursive; margin-top: 160px; font-size: 70px; text-align: center; ">Предоставляемые услуги</div>
+
+<div class="ttable" style="margin-top: 80px">
+    <div class="ttcel">
+    <div class="pic2 sh"></div>
+    <div class="text-serif p35">Аренда звука</div>
+    <div class="text-sans p8100">У нас есть все необходимое для озвучивания Вашего мероприятия: трехполосная акустическая система, усилители, микшерные пульты, микрофоны, процессоры эффектов, автономный генератор. </div>
+
+
+
+    </div>
+    <div class="ttcel">
+    <div class="pic1 sh"></div>
+    <div class="text-serif p35">Аренда света</div>
+    <div class="text-sans p8100">Также мы предлагаем набор сценического света: светодиодные прожекторы, стробоскоп, сканеры, DMX-пульт. </div>
+
+
+    </div>
+    <div class="ttcel">
+    <div class="pic3 sh"></div>
+    <div class="text-serif p35">Доставка и обслуживание</div>
+    <div class="text-sans p8100">Выполняем поиск оборудования на заказ и доставляем аппаратуру. Предлагаем Вам услуги  звукорежиссера и художника по свету.</div>
+
+
+
+
+    </div>
+</div>
+
+<div class="block-3">
+
+
+    <div id="myCarousel" class="carousel">
+        <div class="carousel-inner">
+            <div class="item active" style="background-image:url('images/carou_ps/500(1).jpg')"><div style="background-image:url(images/dottes.png); background-repeat: repeat;"></div><div class="sise-all PO" style="padding-top: 270px; padding-left: 25px; text-align: left; font-size: 80px; line-height: 70px; color: white; text-shadow: 1px 1px 2px black, 0 0 1em #128, 113, 107;">
+            Проводим <br> крупные концерты <br>звезд 
+            </div></div>
+            <div class="item" style="background-image:url('images/carou_ps/500(2).jpg')"><div style="background-image:url(images/dottes.png); background-repeat: repeat;"></div><div class="sise-all PO" style="padding-top: 50px;  text-align: center; font-size: 80px; line-height: 70px; color: white; text-shadow: 1px 1px 2px black, 0 0 1em #128, 113, 107;">
+            Участвуем в рок-фестивалях
+            </div></div>
+            <div class="item" style="background-image:url('images/carou_ps/500(3).jpg')"><div style="background-image:url(images/dottes.png); background-repeat: repeat;"></div><div class="sise-all PO" style="padding-top: 330px; padding-right: 20px; text-align: right; font-size: 80px; line-height: 70px; color: white; text-shadow: 1px 1px 2px black, 0 0 1em #128, 113, 107;">
+            Ставим звук <br>на мероприятиях   
+            </div></div>
+            <div class="item" style="background-image:url('images/carou_ps/500(4).jpg')"><div style="background-image:url(images/dottes.png); background-repeat: repeat;"></div><div class="sise-all PO" style="padding-top: 380px;  text-align: center; font-size: 80px; line-height: 70px; color: white; color: white; text-shadow: 1px 1px 2px black, 0 0 1em #128, 113, 107;">
+            Проводим областные фестивали 
+            </div></div>
+        </div>
+        <!-- Навигационные элементы -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <script> 
+        $('.carousel').carousel({
+          interval: 7500
+        }) 
+    </script>
+    <style>
+    .carousel-inner {
+        height: 500px;
+    }
+    .carousel-inner .item {
+        height: 100%;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+     .carousel-inner .item:after {display: block; content: '';  
+position: absolute; width: 100%; height: 100%; top: 0; left: 0;
+background:url(images/dottes.png); opacity: 0.8; z-index: -1;
+     }
+    </style>
 </div>
 
 
+<div class="end-block">Конец</div>
 
-<div style="background: #777; margin-top: 100px; margin-bottom: 100px; height:200px;"></div>
-<div class="block-text">
-	Text Two ...
-</div>
+
+
+
+
+
+
+
 </body>

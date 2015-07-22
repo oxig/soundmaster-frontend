@@ -1,48 +1,148 @@
 
 
-
-
-//font-family: 'Lora', serif;
-//font-family: 'Ubuntu', sans-serif;
-
-
 body {
 	margin: 0;
 }
 .block {
-	height: 400px;
+	width: 100%;
 	position: relative;
 	overflow: hidden;
 }
 
-.block1 {
-	top:390px;
+.block-image {
 	position: absolute;
-	background: rgba(40, 40, 60, 0.56);
+	background-image: url(images/bg2.jpg);
+	background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
 
-	height: 100%;
-	width: 100%;
+.block-shadow {
+	position: absolute;
+	box-shadow: inset -10px -10px 10px rgba(47, 47, 47, 0.35);  
+    z-index: 4;
+}
+
+.block-grey {
+	position: absolute;
+	background: rgba(36, 27, 18, 0.54);
+	z-index: 3;
+}
+
+.block-dinamic {
+	position: absolute;
 	z-index: 3;
 	transition: all 0.5s ease;
 }
-.block:hover .block1 {
+
+.sise-all {
+	height: 100%;
+	width: 100%;
+}
+.block:hover .block-dinamic {
 	top:0;
 }
 .block2 {
 	position: absolute;
 	background-image: url(images/bg2.jpg);
-	opacity: 0.5;
-	height: 100%;
-	width: 100%;
 	background-size: cover;
     background-position: center center;
     z-index: 1;
 }
-.block-text {
-	font-family: serif;
+
+.ttable {
+display: table;
+margin-bottom: 200px;
+}
+.ttcel {
+display: table-cell;
+width: 33%;
+}
+
+.pic1 {
+	background-image: url(images/pic1.jpg);
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center center;
+}
+.pic2 {
+	background-image: url(images/pic2.jpg);
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center center;
+}
+.pic3 {
+	background-image: url(images/pic3.jpg);
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+
+.round {
+ border-radius: 100%;
+}
+
+.text-serif {
+	font-family: 'Lora', serif;
 	text-align: center;
-	color: red;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	font-size: 40px;
+	font-size: 30px;
+}
+.text-sans {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 15px;
+}
+.margin-text {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.p8100 {
+	padding: 8px 15px 0px;
+}
+.p35 {
+	padding-top: 35px
+}
+
+.taj {
+	text-align: justify
+}
+.s {position: absolute;  font-size: 110px; font-weight: 500; color: white; padding: 150px 3% 0px; z-index: 5;}
+.ss {position: absolute;  font-size: 31px; font-weight: 300; color: white; padding: 275px 3% 0px; z-index: 5;}
+
+
+.block-3 {
+	position: relative;
+	height: 500px; 
+	width: 100%;
+	background: rgba(36, 27, 18, 0.5);
+	overflow: hidden;
+	z-index: 0;
+}
+.block-3 .img-3 {
+background-size: cover;
+background-position: center center;
+}
+.end-block {
+	background: rgb(26, 18, 13);
+	height: 100px;
+
+}
+.sh {
+	box-shadow: inset 0 0 10px rgba(47, 47, 47, 0.35);
+}
+
+.PO {
+	font-family: 'Poiret One', cursive;
 }
